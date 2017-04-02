@@ -17,4 +17,5 @@ $string=str_replace('[!--page.stats--]','',$string);
 echo stripSlashes($string);
 db_close();
 $empire=null;
+echo $empire;
 ?>
